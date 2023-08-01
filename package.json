@@ -1,0 +1,19 @@
+{
+  "name": "emailhealth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dmarc-solution": "^1.2.5",
+    "dns": "^0.2.2",
+    "express": "^4.18.2",
+    "spf-parse": "^1.0.4"
+  }
+}

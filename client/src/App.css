@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font: Arial, Helvetica, sans-serif;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1rem;
+  column-gap: 0.5rem;
+}
+
+.card {
+  width: 1fr;
+  border-radius: 0.5rem;
+  height: 14.5rem;
+}
+
+.shadow {
+  	box-shadow: 0 4px 3px -1px rgb(0 0 0 / 0.1), 0 2px 4px 1px rgb(0 0 0 / 0.1);
+}
+
+.card_interior { 
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card_title {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 600;
+  height: 40%;
+}
+
+.card_subtitle {
+  color: gray;
+  font-size: 0.8rem;
+  margin-top: -1.5rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+
+.card_text {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  margin-top: 0rem;
+}
+
+.card_top {
+  display: grid;
+  grid-template-columns: 0.2fr 2fr;
+  align-items: center;
+  height: 7rem;
+  margin-top: 0.2rem;
+}
+
+.card_layer {
+  position: relative;
+}
+
+.card_icon {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  color: #4D6AFF;
+}
+
+.cover {
+  width: 1.7rem;
+  height: 1.7rem;
+  color: white;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.7rem;
+}
+
+table, td, th {
+  border: 1px solid #ececed;
+}
+
+table {
+  border-collapse: collapse;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+}
+
+.grid_header {
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: 500;
+  justify-content: center;
+  height: 3.5rem;
+}
+
+.grid_val {
+  height: 12rem;
+}
+
+.pill {
+  justify-content: center;
+  display: flex;
+  width: 7.6rem;
+  margin-top: -4.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.4rem;
+  height: 1.9rem;
+}
+
+.pill_icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: white;
+  align-self: center;
+  margin-right: 0.2rem;
+}
+
+.pill_text {
+  color: white;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 0.9rem;
+}
+
+.upill_text {
+  color: gray;
+  font-weight: 600;
+  align-self: center;
+  font-size: 0.85rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
+  letter-spacing: -0.4px;
+}
+
+.input {
+  width: 50%;
+  margin: 0.5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #4D6AFF;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  margin: 0.5rem auto;
+  justify-content: center;
+  width: 60%;
+}
+
+.scan {
+  width: 4rem;
+  border-radius: 0.2rem;
+  height: 2.5rem;
+  font-size: large;
+  vertical-align: middle;
+  color: black;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #4D6AFF;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
